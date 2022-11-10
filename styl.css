@@ -1,0 +1,15 @@
+.col{
+    color: red;
+    text-align: center;
+    justify-content: center;
+    /* width: 50%; */
+}
+.imm{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.cho li{
+    color: red;
+}
