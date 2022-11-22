@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital@0;1&family=Noto+Sans&display=swap');
 body{
-    background-color: rgb(234, 224, 213);
+    background-color: rgb(220, 235, 210);
 }
 
 *{
@@ -18,8 +18,10 @@ nav ul{
     color: aliceblue;
     align-items: center;
 }
-nav ul li{
+nav ul a{
     padding: 0px 13px;
+    text-decoration: none;
+    color: aquamarine;
 }
 .brand img{
     width: 39px; 
@@ -40,7 +42,9 @@ nav ul li{
     margin: 23px auto;
     border-radius: 10px;
     padding: 34px;
-    background-image: url('bg.jpg');
+    background-image: url('bg.webp');
+    background-position: center;
+    background-size: cover;
 }
 .bottom{
     position: sticky;
